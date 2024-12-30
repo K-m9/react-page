@@ -30,11 +30,11 @@ const Work = () => {
                 Introduction: My recent projects in data analytics.
               </p>
               <a href='https://github.com/K-m9'>
-                <button className='btn btn-sm'>View all projects</button>
+                <button className='btn btn-sm' id='View_all_Projects'>View all projects</button>
               </a>
             </div>
             {/* proj1 */}
-            <a href='https://github.com/K-m9/ABTest'>
+            <a href='https://github.com/K-m9/ABTest' id='ABTEST'>
               <div className='group relative overflow-hidden border-2 
             border-teal-500 rounded-xl'>
                 {/* overlay */}
@@ -59,7 +59,7 @@ const Work = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-6'>
-            <a href='https://github.com/K-m9/machine_learning_algorithms/tree/master'>
+            <a href='https://github.com/K-m9/machine_learning_algorithms/tree/master' id='Machine_Learning'>
               {/* proj2 */}
               <div className='group relative overflow-hidden border-2 border-teal-500
             rounded-xl'>
@@ -78,7 +78,7 @@ const Work = () => {
               </div>
             </a>
             {/* proj3 */}
-            <a href='https://github.com/K-m9/My-BI-Documents'>
+            <a href='https://github.com/K-m9/My-BI-Documents' id='BI'>
               <div className='group relative overflow-hidden border-2 
              border-teal-500 rounded-xl'>
                 {/* overlay */}

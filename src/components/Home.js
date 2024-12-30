@@ -85,8 +85,8 @@ const Home = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex justify-center mx-auto lg:mx-0 items-center gap-x-6'>
-              <Link to='work'><button className='btn btn-sm'>My projects</button></Link>
-              <a href='#' className='text-gradient btn-link'>
+              <Link to='work'><button className='btn btn-sm' id='My_projects'>My projects</button></Link>
+              <a href='#' className='text-gradient btn-link' id='Portfolio'>
                 My Portfolio
               </a>
             </motion.div>
@@ -98,10 +98,10 @@ const Home = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
             className='flex justify-center text-[20px] gap-x-12 mx-auto lg:mx-0'>
-            <a href='https://www.linkedin.com/in/xintong-chen-83447a245'>
+            <a href='https://www.linkedin.com/in/xintong-chen-83447a245' id='LinkedIn'>
               <FaLinkedin />
             </a>
-            <a href='https://github.com/K-m9'>
+            <a href='https://github.com/K-m9' id='Github'>
               <FaGithub />
             </a>
           </motion.div>
